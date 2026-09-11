@@ -1,6 +1,6 @@
 # EvilTwin-PortalFramework
 
-**WiFiLab-SimDeployer** es una herramienta automatizada en Python diseñada para el despliegue de entornos controlados de auditoría inalámbrica y simulación de ataques de red (*Rogue AP* y *Man-in-the-Middle*). Este proyecto fue desarrollado con fines estrictamente académicos, de investigación y como demostración práctica para un Trabajo de Fin de Grado (TFG).
+**EvilTwin-PortalFramework** es una herramienta automatizada en Python diseñada para el despliegue de entornos controlados de auditoría inalámbrica y simulación de ataques de red (*Rogue AP* y *Man-in-the-Middle*). Este proyecto fue desarrollado con fines estrictamente académicos, de investigación.
 
 La herramienta unifica la configuración de servicios esenciales del sistema en Linux para estudiar cómo los dispositivos móviles interactúan con portales cautivos falsos y cómo se comporta el enrutamiento de tráfico en redes inseguras.
 
@@ -25,18 +25,18 @@ Para ejecutar este script, tu entorno debe cumplir con los siguientes requisitos
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com
-   cd TU_REPOSITORIO
+   git clone https://Cyb3rPh4nt0n/EvilTwin-PortalFramework/
+   cd EvilTwin-PortalFramework
    ```
 
 2. Dale permisos de ejecución al script principal:
    ```bash
-   chmod +x src/wifi_audit_tool.py
+   chmod +x EvilTwin-PortalFramework.py
    ```
 
 3. Ejecuta la herramienta:
    ```bash
-   sudo python3 src/wifi_audit_tool.py
+   sudo python3 EvilTwin-PortalFramework.py
    ```
 
 ## 🛠️ Detalles Técnicos (Arquitectura)
