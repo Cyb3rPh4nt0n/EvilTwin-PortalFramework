@@ -166,7 +166,7 @@ def desplegar_punto_acceso(datos):
     # 2. Configurar la dirección IP estática
     print(f"[*] Asignando IP {datos['gateway']} a la interfaz {datos['interface_ap']}...")
     subprocess.run(["sudo", "ip", "addr", "flush", "dev", datos['interface_ap']])
-    subprocess.run(["sudo", "ip", "addr", "add", f"{datos['gateway']}/24", datos['interface_ap']])
+    subprocess.run(["sudo", "ip", "addr", "add", f"{datos['gateway']}/24", "dev", datos['interface_ap']])
     subprocess.run(["sudo", "ip", "link", "set", datos['interface_ap'], "up"])
 
     # 3. Escribir configuración personalizada de hostapd
@@ -176,7 +176,7 @@ driver=nl80211
 ssid={datos['ssid']}
 hw_mode=g
 channel=7
-wmm_enable=0
+wmm_enabled=0
 macaddr_acl=0
 auth_algs=1
 ignore_broadcast_ssid=0
