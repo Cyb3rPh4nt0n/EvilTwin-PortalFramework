@@ -1,0 +1,8 @@
+# Este proyecto utiliza únicamente la librería estándar de Python.
+# No se requieren paquetes externos de PyPI.
+
+# Dependencias obligatorias del sistema operativo (Instalar vía APT en Linux):
+# hostapd
+# dnsmasq
+# nftables
+# network-manager
