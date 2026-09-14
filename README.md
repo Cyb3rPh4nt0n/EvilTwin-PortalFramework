@@ -1,6 +1,6 @@
 # EvilTwin-PortalFramework
 
-**EvilTwin-PortalFramework** es una herramienta automatizada en Python diseñada para el despliegue de entornos controlados de auditoría inalámbrica y simulación de ataques de red (*Rogue AP* y *Man-in-the-Middle*). Este proyecto fue desarrollado con fines estrictamente académicos, de investigación.
+**EvilTwin-PortalFramework** es una herramienta automatizada en Python diseñada para el despliegue de entornos controlados de auditoría inalámbrica y simulación de ataques de red (*Rogue AP* y *Man-in-the-Middle*). Este proyecto fue desarrollado con fines estrictamente académicos y de investigación.
 
 La herramienta unifica la configuración de servicios esenciales del sistema en Linux para estudiar cómo los dispositivos móviles interactúan con portales cautivos falsos y cómo se comporta el enrutamiento de tráfico en redes inseguras.
 
